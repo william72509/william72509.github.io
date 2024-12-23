@@ -1,10 +1,94 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>For Hire!</title>
-  </head>
-  <body>
-    <h1>header</h1>
-    <p>text</p>
-  </body>
-</html>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>help needed application</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">email / phone</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="______" class="form-control input-md" required="">
+  <span class="help-block">needed so i can contact you</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">name &amp; age</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="_____" class="form-control input-md" required="">
+  <span class="help-block">format doesnt matter</span>  
+  </div>
+</div>
+
+<!-- Button Drop Down -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="buttondropdown">location</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="choose~" type="text" required="">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          town
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">homewood</a></li>
+          <li><a href="#">harvey</a></li>
+          <li><a href="#">ford heights</a></li>
+          <li><a href="#">flossmoor</a></li>
+          <li><a href="#">thorton</a></li>
+          <li><a href="#">glenwood</a></li>
+          <li><a href="#">country club hills</a></li>
+          <li><a href="#">olympia fields</a></li>
+          <li><a href="#">matteson</a></li>
+          <li><a href="#">other</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">budget</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="$" class="form-control input-md" required="">
+  <span class="help-block">js so i can judge what your budget is, i want to help as much as possible, but also am looking to make some money in the process</span>  
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes">time with issue</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+      under 7 days
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+      1-2 weeks
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-2">
+      <input type="checkbox" name="checkboxes" id="checkboxes-2" value="">
+      1-3 months
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-3">
+      <input type="checkbox" name="checkboxes" id="checkboxes-3" value="">
+      longer
+    </label>
+	</div>
+  </div>
+</div>
+
+</fieldset>
+</form>
